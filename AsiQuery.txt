@@ -1,0 +1,31 @@
+CREATE TABLE [dbo].[Production] (
+    [Id]        INT             IDENTITY (1, 1) NOT NULL,
+    [UserId]    INT             NOT NULL,
+    [TaskId]    INT             NOT NULL,
+    [WorkHours] DECIMAL (18, 1) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Production_ToTable] FOREIGN KEY ([TaskId]) REFERENCES [dbo].[Tasks] ([Id]),
+    CONSTRAINT [FK_Production_Users] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
+);
+
+CREATE TABLE [dbo].[Tasks] (
+    [Id]          INT        IDENTITY (1, 1) NOT NULL,
+    [Customer]    NCHAR (50) NOT NULL,
+    [Description] NCHAR (50) NOT NULL,
+    [WorkType]    NCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Users] (
+    [Id]           INT          IDENTITY (1, 1) NOT NULL,
+    [Role]         NCHAR (5)    NOT NULL,
+    [FirstName]    NCHAR (50)   NOT NULL,
+    [LastName]     NCHAR (50)   NOT NULL,
+    [Birthday]     DATE         NOT NULL,
+    [Email]        NCHAR (50)   NOT NULL,
+    [PhoneNumber]  INT          NOT NULL,
+    [Username]     VARCHAR (50) NOT NULL,
+    [UserPassword] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    UNIQUE NONCLUSTERED ([Username] ASC)
+);

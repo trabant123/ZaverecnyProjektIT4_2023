@@ -1,0 +1,14 @@
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\bin\Debug\Asikonec.exe.config
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\bin\Debug\Asikonec.exe
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\bin\Debug\Asikonec.pdb
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.csproj.AssemblyReference.cache
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.csproj.SuggestedBindingRedirects.cache
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.ProductionForm.resources
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.Properties.Resources.resources
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.csproj.GenerateResource.cache
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.csproj.CoreCompileInputs.cache
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.exe
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.pdb
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.UsersForm.resources
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.LoginForm.resources
+C:\Users\Blaha Roman\Documents\Asikonec\Asikonec\obj\Debug\Asikonec.RegisterForm.resources
